@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.parallax-section {
+    position: relative;
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-section1 {
+    position: relative;
+    height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-section3 {
+    position: relative;
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/599c75ede9bfdfe898f03f2a/1549839389454-V3EMXKBSKP3WS3IAJ9WE/yellow_messy_2000x1350_v2.jpg?format=2500w);
+}
+
+#section2 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/599c75ede9bfdfe898f03f2a/1718993730398-OJQU6OW9BUF7LY0T9B52/Scoop+AShop+2.png?format=2500w);
+}
+#section3 {
+    background-color: white;
+}
+#section4 {
+    background-color: #FFCF53;
+
+}
+#section5 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/599c75ede9bfdfe898f03f2a/1648661995656-4SZCU65IGBASAL61YRA9/Untitled+design+%285%29.png?format=2500w);
+}
+#section6 {
+    background-color: #FFD900;
+
+}
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+
+
+#shop{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: black;
+    cursor: pointer;
+    font-size: 60px;
+    text-underline-offset: 13px; 
+}
+#shop1{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #ab920470;
+    cursor: pointer;
+    font-size: 60px;
+    text-underline-offset: 13px; 
+}
+#shop2{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color:white;
+    cursor: pointer;
+    font-size: 60px;
+    text-underline-offset: 13px; 
+}
+#shop3{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color:white;
+    cursor: pointer;
+    font-size: 60px;
+    text-underline-offset: 13px; 
+}
+#footer{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+    text-underline-offset: 4px;
+}
+
